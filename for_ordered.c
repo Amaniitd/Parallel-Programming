@@ -3,11 +3,6 @@
 #include <stdlib.h>
 #include <limits.h>
 
-// int max(int res, int val) { return (val > res) ? val : res; }
-
-// #pragma omp declare reduction(mymax:int \
-//                               : omp_out = max(omp_out, omp_in)) initializer(omp_priv = INT_MIN)
-
 void orderInsensitivePart1(int item)
 {
     // printf("%s", "hii");
